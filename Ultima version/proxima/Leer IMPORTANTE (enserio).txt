@@ -1,0 +1,23 @@
+Realice las siguientes correcciones NO CONTEMPLADAS EN EL VIDEO:
+
+---------------Archivo INDEX.PHP----------------------
+
+1. Linea 37:	Verifico que la variable "sesion_exito" exista.
+		
+		+SI EXISTE: verifica el tipo de error.
+		
+		-SI NO EXISTE: el codigo se encargara de igualarla a 0 y no iniciara sesion.
+
+-------------------------------------------------------
+
+----------------Archivo REGISTRO.PHP-------------------
+
+1. Linea 18:	Verifico que el boton "iniciar sesion" de la pagina index sea presionado.
+
+		+SI ES PRESIONADO: verificara los datos de usuario (user y pass) y determinara si inicia o no sesion.
+
+		-SI NO ES PRESIONADO: es por que accedieron directamente a esta pagina, automaticamente verificara si
+		ya iniciaron sesion o no, en caso negativo los devolvera a index.php
+--------------------------------------------------------
+
+¡COMPARTAN ESTE CONOCIMIENTO! :D
